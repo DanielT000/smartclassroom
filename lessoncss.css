@@ -1,14 +1,17 @@
 li {
-    font-family: Verdana
+    font-family: Verdana;
     border: 5px solid black;
-    background-color: aqua;
-    padding: 10px
+    background-color: yellow;
+    padding: 3px;
     
 
 }
 a:hover{
     color: red;
     text-decoration: underline;
+}
+a:visited{
+    color: blue;
 }
 .topnav {
     position: fixed;
