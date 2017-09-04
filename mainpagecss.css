@@ -54,6 +54,10 @@ h1 {
     background-color: #4B0000;
     color: white;
 }
+.topnav a.subclass:hover {
+    background-color: #ddd;
+    color: black;
+}
 #secret{
   color:white;
 }
