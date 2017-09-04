@@ -2,13 +2,17 @@ li {
     font-family: Verdana;
     border: 5px solid black;
     background-color: yellow;
-    padding: 3px;
+    padding: 4px;
     
 
 }
 a:hover{
-    color: red;
+    color: green;
     text-decoration: underline;
+}
+a {
+    color: red;
+    text-align:center;
 }
 a:visited{
     color: blue;
