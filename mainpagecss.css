@@ -1,17 +1,11 @@
-/*
-div{
-  background-color:green;
-  height:50%;
-  width:50%;
-  float:left;
-}
-*/
+
 h1 {
   font-size:200%
 }
 .topnav {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     background-color: #333;
     overflow: hidden;
