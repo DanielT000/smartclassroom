@@ -1,3 +1,3 @@
 # smartclassroom
 hackathon
-idk help
+Progress is slowly being made.
