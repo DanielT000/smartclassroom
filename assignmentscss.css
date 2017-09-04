@@ -1,5 +1,5 @@
 
-p {
+li {
   font-family: serif;
   color: black;
   font-size: 20px;
@@ -17,6 +17,59 @@ h1{
   padding: 5px;
   margin: 5px;
   
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 2px solid #4CAF50;
+}
+.button:hover {
+    background-color: white; /* Green */
+    color: black;
+}
+.lateButton {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 5px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border: 2px solid #ff0000;
+}
+.lateButton:hover {
+    background-color: white; /* Green */
+    color: black;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table{
+    border: 1px solid black;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover {background-color: #ffff99}
+
+th {
+    background-color: #0099ff;
+    color: white;
 }
 .topnav {
     background-color: #333;
