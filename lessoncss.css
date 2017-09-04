@@ -6,11 +6,11 @@ li {
     
 
 }
-a:hover{
+li:hover{
     color: green;
     text-decoration: underline;
 }
-a {
+li {
     color: red;
     text-align:center;
 }
