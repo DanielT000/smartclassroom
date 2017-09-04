@@ -3,25 +3,52 @@
 	<head>
 		<title>Smart Classroom '17 Home</title>
 		<link rel="stylesheet" href="mainpagecss.css" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script>
+			$(document).ready(function(){
+				$("#SignUp").click(function(){
+					var userName = prompt('Enter username:');
+					var password = prompt('Enter password:');
+					var passwordConfirm = prompt('Confirm password:');
+					if(password == passwordConfirm) {
+						var code = prompt('Enter T for teacher account, admin code for admin account and S for student account').toLowerCase();
+						if (code == 't') {
+							var duty = 'teacher';
+						} else if (code == 'adminer') {
+							var duty = 'site admin';
+						} else if (code == 's') {
+							var duty = 'student';
+						} else {
+							alert("Your code is faulty.")
+						}
+					} else {
+						alert('Your passwords do not agree.');
+					}
+				});
+				$("#Login").click(function(){
+					var nameuser = prompt("Enter username:");
+					var pwuser = prompt("Enter password:");
+					document.cookie = nameuser, pwuser;
+				});
+			});
 		</script>
 	</head>
 	<body>
 		
 		<div class="topnav" id="myTopnav">
  			<a class="active" href="homePage.html">Home</a>
- 			<a class="subclass" href="#news">News</a>
- 			<a class="subclass" href="#contact">Contact</a>
-			<a class="subclass" href="About.html">About</a>
-			<a href="AssignmentStudent.html">Assignments</a>
+ 			<a href="#news">News</a>
+ 			<a href="#contact">Contact</a>
+			<a href="#about">About</a>
+			<a href="https://github.com/DanielT000/smartclassroom/blob/master/Assignments.html">Assignments</a>
 			<a href="Lessons.html">Lessons</a>
 		</div>
-		<h1>'</h1>
 		<h1>SMART CLASSROOM '17 Alpha 0.3.5</h1>
-		<button class="button" onclick="prompt('Enter username:'); prompt('Enter password:'); prompt('Confirm password:'); prompt('Enter T for teacher, the admin code for admin and anything else for student');">Sign Up</button>
-		<button class="button" onclick="document.cookie = prompt('Enter username:');, prompt('Enter password:');">Login</button>
+		<button id='SignUp'>Sign Up</button>
+		<button id='Login'>Login</button>
 		<h2 id='news'>News</h2>
-		<p>12:45PM, 4/9/2017: We are now working on the username system. Please wait and watch for more updates.
+		<p>1:23PM, 4/9/2017: We have now designed the cookies for sign up and login. Doesn't work well, though.</p>
+		<p>12:45PM, 4/9/2017: We are now working on the username system. Please wait and watch for more updates.</p>
 		<p>11:40AM, 4/9/2017: We have recently imported the assignments page, which is now available on the top scrollbar. Watch out for more additions to this page!</p>
 		<h2 id='contact'>Contact Information</h2>
 		<!--Feel free to add your own contact info here-->
