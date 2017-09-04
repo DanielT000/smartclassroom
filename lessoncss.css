@@ -7,6 +7,9 @@ li {
     
 
 }
+li:hover{
+    background-color:#FFFFAA;
+}
 a:hover{
     color: green;
     text-decoration: underline;
