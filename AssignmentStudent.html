@@ -2,7 +2,45 @@
 <html>
 	<head>
 		<title>Smart Classroom '17 Assignments</title>
-		<link rel="stylesheet" href="assignmentscss.css" type="text/css">
+		<style>
+		p {
+  font-family: Courier;
+  font-size: 75px;
+  color: black;
+  background-color:green;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+		</style>
 		<!--And script link here.-->
 	</head>
 	<body>
@@ -11,7 +49,7 @@
  			<a href="homePage.html#news">News</a>
  			<a href="homePage.html#contact.html">Contact</a>
 			<a href="homePage.html#about">About</a>
-			<a class="active" href="Assignments.html">Assignments</a>
+			<a class="active" href="AssignmentStudent.html">Assignments</a>
 		</div>
 		<p id='noAssignments'>You have no outstanding assignments.</p>
 		<p id='ungradedAssignment'>You have outstanding ungraded assignments.</p>
