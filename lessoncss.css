@@ -3,6 +3,10 @@ li {
     
 
 }
+li:hover{
+    color: red;
+    text-decoration: underline;
+}
 .topnav {
     position: fixed;
     top: 0;
