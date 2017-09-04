@@ -36,3 +36,7 @@ p {
     background-color: #4CAF50;
     color: white;
 }
+.topnav a.subclass {
+    background-color: #4B0000;
+    color: white;
+}
