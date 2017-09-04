@@ -1,8 +1,9 @@
 
 p {
-  font-family: Verdana;
+  font-family: Courier;
   font-size: 75px;
-  color: aqua;
+  color: black;
+  background-color:green;
 }
 
 .topnav {
