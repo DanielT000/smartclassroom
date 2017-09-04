@@ -9,6 +9,7 @@ li {
 }
 li:hover{
     background-color:#FFFFAA;
+    border: 5px solid #FF0000;
 }
 a:hover{
     color: green;
